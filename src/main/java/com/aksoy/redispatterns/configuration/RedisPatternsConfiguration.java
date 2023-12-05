@@ -1,0 +1,9 @@
+package com.aksoy.redispatterns.configuration;
+
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
+
+@Configuration
+@ComponentScan(basePackages = {"com.aksoy.redispatterns"})
+public class RedisPatternsConfiguration {
+}
